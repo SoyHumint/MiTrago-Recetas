@@ -5,6 +5,10 @@ module.exports = (sequelize) => {
       name: {
          type: DataTypes.STRING,
          allownull: false
+      },
+      favorite: {
+         type: DataTypes.BOOLEAN,
+         allownull: false
       }
    })
 } 
